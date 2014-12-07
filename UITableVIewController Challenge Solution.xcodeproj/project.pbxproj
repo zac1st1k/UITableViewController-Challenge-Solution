@@ -15,13 +15,13 @@
 		117E1C971A34469E006E85D1 /* XZZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 117E1C961A34469E006E85D1 /* XZZAppDelegate.m */; };
 		117E1C9A1A34469E006E85D1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117E1C981A34469E006E85D1 /* Main_iPhone.storyboard */; };
 		117E1C9D1A34469E006E85D1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117E1C9B1A34469E006E85D1 /* Main_iPad.storyboard */; };
-		117E1CA01A34469E006E85D1 /* XZZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 117E1C9F1A34469E006E85D1 /* XZZViewController.m */; };
 		117E1CA21A34469E006E85D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117E1CA11A34469E006E85D1 /* Images.xcassets */; };
 		117E1CA91A34469E006E85D1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117E1CA81A34469E006E85D1 /* XCTest.framework */; };
 		117E1CAA1A34469E006E85D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117E1C861A34469E006E85D1 /* Foundation.framework */; };
 		117E1CAB1A34469E006E85D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117E1C8A1A34469E006E85D1 /* UIKit.framework */; };
 		117E1CB31A34469E006E85D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 117E1CB11A34469E006E85D1 /* InfoPlist.strings */; };
 		117E1CB51A34469E006E85D1 /* UITableVIewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 117E1CB41A34469E006E85D1 /* UITableVIewController_Challenge_SolutionTests.m */; };
+		117E1CC01A344813006E85D1 /* XZZUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 117E1CBF1A344813006E85D1 /* XZZUITableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +47,14 @@
 		117E1C961A34469E006E85D1 /* XZZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZZAppDelegate.m; sourceTree = "<group>"; };
 		117E1C991A34469E006E85D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		117E1C9C1A34469E006E85D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		117E1C9E1A34469E006E85D1 /* XZZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZZViewController.h; sourceTree = "<group>"; };
-		117E1C9F1A34469E006E85D1 /* XZZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZZViewController.m; sourceTree = "<group>"; };
 		117E1CA11A34469E006E85D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		117E1CA71A34469E006E85D1 /* UITableVIewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableVIewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		117E1CA81A34469E006E85D1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		117E1CB01A34469E006E85D1 /* UITableVIewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableVIewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		117E1CB21A34469E006E85D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		117E1CB41A34469E006E85D1 /* UITableVIewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableVIewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		117E1CBE1A344813006E85D1 /* XZZUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZZUITableViewController.h; sourceTree = "<group>"; };
+		117E1CBF1A344813006E85D1 /* XZZUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZZUITableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +118,8 @@
 				117E1C961A34469E006E85D1 /* XZZAppDelegate.m */,
 				117E1C981A34469E006E85D1 /* Main_iPhone.storyboard */,
 				117E1C9B1A34469E006E85D1 /* Main_iPad.storyboard */,
-				117E1C9E1A34469E006E85D1 /* XZZViewController.h */,
-				117E1C9F1A34469E006E85D1 /* XZZViewController.m */,
+				117E1CBE1A344813006E85D1 /* XZZUITableViewController.h */,
+				117E1CBF1A344813006E85D1 /* XZZUITableViewController.m */,
 				117E1CA11A34469E006E85D1 /* Images.xcassets */,
 				117E1C8D1A34469E006E85D1 /* Supporting Files */,
 			);
@@ -255,8 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				117E1C931A34469E006E85D1 /* main.m in Sources */,
+				117E1CC01A344813006E85D1 /* XZZUITableViewController.m in Sources */,
 				117E1C971A34469E006E85D1 /* XZZAppDelegate.m in Sources */,
-				117E1CA01A34469E006E85D1 /* XZZViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
