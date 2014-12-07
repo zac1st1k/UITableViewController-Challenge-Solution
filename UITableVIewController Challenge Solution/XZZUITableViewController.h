@@ -1,5 +1,5 @@
 //
-//  XZZViewController.h
+//  XZZUITableViewController.h
 //  UITableVIewController Challenge Solution
 //
 //  Created by Zac on 7/12/2014.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XZZViewController : UIViewController
+@interface XZZUITableViewController : UITableViewController
 
 @end
